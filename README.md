@@ -11,3 +11,5 @@ When a bucket is left public, anyone on the web can exfiltrate or delete files. 
 ## 4. How to Prevent Open-Bucket Leaks
 - Keep it Private by Default: Restrict object access upon initial creation.
 - Enable Block Public Access: Enforce global hypervisor overrides to block incoming public traffic requests.
+- Conduct Regular Audits: Run automated compliance tracking weekly to detect rogue exposures.
+- Principle of Least Privilege: Restrict identity access management (IAM) permissions exclusively to essential personnel.
