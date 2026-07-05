@@ -13,3 +13,5 @@ When a bucket is left public, anyone on the web can exfiltrate or delete files. 
 - Enable Block Public Access: Enforce global hypervisor overrides to block incoming public traffic requests.
 - Conduct Regular Audits: Run automated compliance tracking weekly to detect rogue exposures.
 - Principle of Least Privilege: Restrict identity access management (IAM) permissions exclusively to essential personnel.
+## 5. Conclusion
+Cloud security demands operational discipline. The Shared-Responsibility Framework proves we cannot blame infrastructure vendors for administrative oversights. Proper privacy checks mitigate these risks entirely.
