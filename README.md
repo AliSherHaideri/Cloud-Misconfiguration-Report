@@ -8,3 +8,6 @@ Security is a teamwork between the Cloud Provider and the Customer. The provider
 The provider is the landlord securing the building walls, while the customer is the tenant responsible for locking their own room's door. Leaving a folder open without access controls is solely the customer's fault.
 ### The Threat Vector of Open Buckets
 When a bucket is left public, anyone on the web can exfiltrate or delete files. Threat actors deploy automated scraping scripts to discover these misconfigured nodes, resulting in severe data breaches.
+## 4. How to Prevent Open-Bucket Leaks
+- Keep it Private by Default: Restrict object access upon initial creation.
+- Enable Block Public Access: Enforce global hypervisor overrides to block incoming public traffic requests.
